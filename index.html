@@ -17,7 +17,7 @@
 	<meta name="description"
 		  content="Superstars is the 1ST VIDEO Professional Social Network. ALL professional content, ALL user videos. Business networking + career growth for Next-Gen!">
 </head>
-<body>
+<body onload="run();">
 <!-- E:HEADER -->
 <header>
 	<div class="banner">
@@ -52,6 +52,22 @@
 		}*/
 	});
 	}
+	// added by nicole 
+	function run(){
+        video_count++;
+        //alert(video_count);
+        if (video_count == 4) video_count = 1;
+        var nextVideo = "./assets/mp4/Video"+video_count+".mp4";
+        //videoPlayer.src = nextVideo;
+        alert(nextVideo);
+        videoPlayer.setAttribute("src", nextVideo[video_count]);
+        videoPlayer.play();
+   }
+videoPlayer.onended(function(e) {
+     if (!e) {
+        e = window.event;
+    } 
+ run();
 </script>
 <!-- E:HEADER -->
 
