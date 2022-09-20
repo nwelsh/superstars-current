@@ -562,7 +562,7 @@ hr {
 
 /*ABOUT PAGE*/
 .about {
-    background-image: url("assets/img/bg-img.png");
+    /* background-image: url("assets/img/bg-img.png"); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
