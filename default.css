@@ -683,7 +683,7 @@ video::-webkit-media-controls-fullscreen-button {
         left: 0;
         text-align: center;
         background-color: #4f76a6;
-        width: 105vw;
+        width: 100%;
         height: 5vh;
         display: flex;
         justify-content: center;
@@ -694,6 +694,60 @@ video::-webkit-media-controls-fullscreen-button {
     header .close {
         margin-top: 10px;
     }
+    .mediafoot{
+        padding-top: 0px;
+    }
 }
 
 
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    font-family: sans-serif;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  
+  .tabs__label {
+    
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  .tabs__radio {
+    display: none;
+  }
+  
+  .tabs__content {
+    order: 3;
+    width: 100%;
+    /*border-bottom: 3px solid #dddddd; */
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+  }
+  
+  .tabs__radio:checked + .tabs__label {
+    font-weight: bold;
+    color: #37BB87;
+    border-bottom: 2px solid #37BB87;
+  }
+  
+  .tabs__radio:checked + .tabs__label + .tabs__content {
+    display: initial;
+  }
+  
+   .content ul li {
+    display: list-item;
+    list-style: disc;
+    
+   }
+
+   .whartonlinks{
+    text-decoration: underline;
+    color: rgb(0, 26, 255);
+   }
+/**
+ * Generic Styling
+*/
