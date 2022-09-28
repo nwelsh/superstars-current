@@ -1,4 +1,3 @@
-<!-- Home page is extremely slow but the rest load quickly. what if we take out the videos? -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -66,6 +65,7 @@
 
 					<div class="img-content">
 						<div class="back-phone-holder">
+							<!-- new logo -->
 							<img class="phone-frame-img" src="./assets/img/iphone-logo2.png" alt="Phone Frame Image">
 						</div>
 
@@ -80,12 +80,13 @@
 											Your browser does not support the video tag.
 										</video>
 									</li>
-									<li class="swiper-slide">
+									<!-- dont have this video -->
+									<!-- <li class="swiper-slide">
 										<video controls="true" playsinline webkit-playsinline muted >
 											<source src="./assets/mp4/Video2.mp4" type="video/mp4">
 											Your browser does not support the video tag.
 										</video>
-									</li>
+									</li> -->
 									<li class="swiper-slide">
 										<video controls="true" playsinline webkit-playsinline muted>
 											<source src="./assets/mp4/Video3.mp4" type="video/mp4">
@@ -130,6 +131,7 @@
 					<div class="main-content">
 						<div class="logo-holder">
 						</div>
+						
 						<h2 class="main-title"><span class="green">ALL Video</span><br>Professional Networking,<br>made easy for Next-Gen
 						</h2>
 						<hr size="4"></hr>
@@ -154,11 +156,10 @@
 	<!-- E:FOOTER -->
 	<footer>
 		<div class="container container2">
-			
-			<div class="row mediafoot">
+			<br></br>
+			<div class="row">
                 <ul>
-                  <li><span class="backed">backed by 2 Accelerators:
-</span>
+                  <li><span class="backed">backed by 2 Accelerators:</span>
                   </li>
                 </ul>
               </div>
@@ -181,6 +182,7 @@
 				<ul>
 					<li><a href="about.html">About</a>
 					</li>
+					<!-- added -->
 					<li><a
 						href="https://www.notion.so/getsuperstars/Terms-of-Service-Get-Superstars-Inc-62b47ad775b946adb291aabfc7a944a5" target="_blank">Terms</a>
 					</li>
@@ -251,12 +253,11 @@
 		}, 300);
 	};
 
-	// find load time 
-	window.onload = function () {
+// find load time 
+window.onload = function () {
     var loadTime = window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart; 
     console.log('Page load time is '+ loadTime);
 }
-
 
 </script>
 
