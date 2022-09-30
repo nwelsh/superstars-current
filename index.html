@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +7,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
-		rel="stylesheet">
+		  rel="stylesheet">
 
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="default.css" />
@@ -16,260 +15,241 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<title>Superstars: Professional Network | Business Networking App</title>
 	<meta name="description"
-		content="Superstars is the 1ST VIDEO Professional Social Network. ALL professional content, ALL user videos. Business networking + career growth for Next-Gen!">
+		  content="Superstars is the 1ST VIDEO Professional Social Network. ALL professional content, ALL user videos. Business networking + career growth for Next-Gen!">
 </head>
-
 <body>
-	<!-- E:HEADER -->
-	<header>
-		<div class="banner">
-			<a href="media.html">
-				<p><span style="color: white">admitted to Newchip — </span><span
-						style="font-weight: 800; color: white;">#1 Online Global Accelerator</span>
-			</a><span class="close">x</span></p>
-		</div>
-		<div class="social-row-wrap">
-			<div class="social-row">
-				<a href="https://instagram.com/superstarsapp" target="_blank">
-					<img class="social" src="./assets/img/instagram.png" alt="Instagram logo" />
+<!-- E:HEADER -->
+<header>
+	<div class="banner">
+		<a href="media.html"><p><span style="color: white">admitted to Newchip — </span><span style="font-weight: 800; color: white;">#1 Online Global Accelerator</span></a><span class="close">x</span></p>
+	</div>
+	<div class="social-row-wrap">
+		<div class="social-row">
+				<a href="https://instagram.com/superstarsapp"  target="_blank">
+					<img class="social" src="./assets/img/instagram.png" alt="Instagram logo"/>
 				</a>
 				<a href="https://tiktok.com/@superstarsapp" target="_blank">
-					<img class="social" src="./assets/img/tiktok.png" alt="Tiktok logo" />
+					<img class="social" src="./assets/img/tiktok.png" alt="Tiktok logo"/>
 				</a>
-			</div>
 		</div>
-	</header>
+	</div>
+</header>
 
-	<script>
-		// Get all elements with class="close"
-		var closebtns = document.getElementsByClassName("close");
-		var mainclass = document.getElementById("main");
-		var i;
+<script>
+	// Get all elements with class="close"
+	var closebtns = document.getElementsByClassName("close");
+	var mainclass = document.getElementById("main");
+	var i;
 
-		// Loop through the elements, and hide the parent, when clicked on
-		for (i = 0; i < closebtns.length; i++) {
-			closebtns[i].addEventListener("click", function () {
-				this.parentElement.parentElement.style.display = 'none';
-				/*for (var j in mainclass) {
-				  if (mainclass.hasOwnProperty(j)) {
-					this.style.marginTop = "-10%";
-				  }
-				}*/
-			});
-		}
-	</script>
-	<!-- E:HEADER -->
+	// Loop through the elements, and hide the parent, when clicked on
+	for (i = 0; i < closebtns.length; i++) {
+	closebtns[i].addEventListener("click", function() {
+		this.parentElement.parentElement.style.display = 'none';
+		/*for (var j in mainclass) {
+		  if (mainclass.hasOwnProperty(j)) {
+		    this.style.marginTop = "-10%";
+		  }
+		}*/
+	});
+	}
+</script>
+<!-- E:HEADER -->
 
-	<div class="dummy-container">
-		<main class="main" id="main">
-			<!-- HIGHLIGHT SECTION -->
-			<section class="highlight-section">
-				<div class="container">
-					<div class="row">
+<div class="dummy-container">
+	<main class="main" id="main">
+		<!-- HIGHLIGHT SECTION -->
+		<section class="highlight-section">
+			<div class="container">
+				<div class="row">
 
-						<div class="img-content">
-							<div class="back-phone-holder">
-								<!-- new logo -->
-								<img class="phone-frame-img" src="./assets/img/iphone-logo2.png"
-									alt="Phone Frame Image">
-							</div>
+					<div class="img-content">
+						<div class="back-phone-holder">
+							<img class="phone-frame-img-tilt" src="./assets/img/iphone-logo.png" alt="Phone Frame Image">
+						</div>
 
-							<div class="front-phone-holder">
-								<img class="phone-frame-img" src="./assets/img/phone2.png" alt="Phone Frame Image">
-								<!-- Swiper -->
-								<div class="swiper mySwiper">
-									<ul class="swiper-wrapper">
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted autoplay>
-												<source src="./assets/mp4/Video1.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-										
-										<!-- dont have this video, it was too big for the slideshow -->
-										<!-- <li class="swiper-slide">
+						<div class="front-phone-holder">
+							<img class="phone-frame-img" src="./assets/img/phone2.png" alt="Phone Frame Image">
+							<!-- Swiper -->
+							<div class="swiper mySwiper">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted autoplay>
+											<source src="./assets/mp4/Video1.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+									<li class="swiper-slide">
 										<video controls="true" playsinline webkit-playsinline muted >
 											<source src="./assets/mp4/Video2.mp4" type="video/mp4">
 											Your browser does not support the video tag.
 										</video>
-									</li> -->
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted>
-												<source src="./assets/mp4/Video3.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted>
-												<source src="./assets/mp4/Video4.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted>
-												<source src="./assets/mp4/Video5.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted>
-												<source src="./assets/mp4/Video6.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-										<li class="swiper-slide">
-											<video controls="true" playsinline webkit-playsinline muted>
-												<source src="./assets/mp4/Video7.mp4" type="video/mp4">
-												Your browser does not support the video tag.
-											</video>
-										</li>
-									</ul>
-									<div class="swiper-pagination"></div>
-									<!-- If we need navigation buttons -->
-									<div class="swiper-button-prev"></div>
-									<div class="swiper-button-next"></div>
-								</div>
-								<!-- E:Swiper -->
-
+									</li>
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted>
+											<source src="./assets/mp4/Video3.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted>
+											<source src="./assets/mp4/Video4.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted>
+											<source src="./assets/mp4/Video5.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted>
+											<source src="./assets/mp4/Video6.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+									<li class="swiper-slide">
+										<video controls="true" playsinline webkit-playsinline muted>
+											<source src="./assets/mp4/Video7.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</li>
+								</ul>
+								<div class="swiper-pagination"></div>
+								<!-- If we need navigation buttons -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
 							</div>
+							<!-- E:Swiper -->
+
 						</div>
+					</div>
 
-						<div class="main-content">
-							<div class="logo-holder">
-							</div>
-
-							<h2 class="main-title"><span class="green">ALL Video</span><br>Professional
-								Networking,<br>made easy for Next-Gen
-							</h2>
-							<hr size="4">
-							</hr>
-							<br></br>
-							<h2 class="main-title"><span style="font-weight:300;">Goodbye boring!</span><br>Hello <span
-									class="green">action</span><br>Hello <span class="green">Superstars</span>
-							</h2>
-							<div class="app-button">
-								<a target="_blank"
-									href="https://apps.apple.com/us/app/superstars-business-network/id1606509335"><img
-										src="./assets/img/appstore.jpeg" alt="App Store" /></a>
-								<a target="_blank"
-									href="https://play.google.com/store/apps/details?id=co.superstars"><img
-										src="./assets/img/googleplay.jpeg" alt="Google Play" /></a>
-							</div>
+					<div class="main-content">
+						<div class="logo-holder">
+						</div>
+						<h2 class="main-title"><span style="font-weight:300;">Next-Gen</span><br>Professional Networking,<br><span class="green">ALL Video</span>
+						</h2>
+						<hr size="4"></hr>
+						<br></br>
+						<h2 class="main-title"><span style="font-weight:300;">Goodbye boring!</span><br>Hello <span class="green">action</span><br>Hello <span class="green">Superstars</span>
+						</h2>
+						<div class="app-button">
+							<a target="_blank"
+							   href="https://apps.apple.com/us/app/superstars-business-network/id1606509335"><img
+								src="./assets/img/appstore.jpeg" alt="App Store" /></a>
+							<a target="_blank"
+							   href="https://play.google.com/store/apps/details?id=co.superstars"><img
+								src="./assets/img/googleplay.jpeg" alt="Google Play" /></a>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- E:HIGHLIGHT SECTION -->
-		</main>
-
-		<!-- E:FOOTER -->
-		<footer>
-			<div class="container container2">
-				<br></br>
-				<div class="row">
-					<ul>
-						<li><span class="backed">backed by 2 Accelerators:</span>
-						</li>
-					</ul>
-				</div>
-				<div class="row logos">
-					<ul>
-						<li>
-							<a href="https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/centers/berkley-center-for-entrepreneurship"
-								target="_blank">
-								<img src="./assets/img/NYU1.png" alt="NYU Logo" class="nyu" />
-							</a>
-						</li>
-						<li>
-							<a href="https://newchip.com/" target="_blank">
-								<img src="./assets/img/NEWCHIP_LOGO_COLOR.png" alt="Newchip Logo" class="nyu newchip" />
-							</a>
-						</li>
-					</ul>
-				</div>
-
-				<div class="row">
-					<ul>
-						<li><a href="about.html">About</a>
-						</li>
-						<!-- added -->
-						<li><a href="https://www.notion.so/getsuperstars/Terms-of-Service-Get-Superstars-Inc-62b47ad775b946adb291aabfc7a944a5"
-								target="_blank">Terms</a>
-						</li>
-						<li><a href="https://getsuperstars.notion.site/getsuperstars/Privacy-Policy-Get-Superstars-Inc-0080336704b74777b8180b0531c10cf3"
-								target="_blank">Privacy</a>
-						</li>
-						<li><a href="mailto:support@superstars.co">Contact</a></li>
-						<li><a href="media.html">Media</a></li>
-					</ul>
-					<span class="copyright">Superstars&#8482; 2022 | All Rights Reserved</span>
-				</div>
 			</div>
-		</footer>
-		<!-- E:FOOTER -->
+		</section>
+		<!-- E:HIGHLIGHT SECTION -->
+	</main>
 
-	</div>
+	<!-- E:FOOTER -->
+	<footer>
+		<div class="container container2">
+			<br></br>
+			<div class="row">
+                <ul>
+                  <li><span class="backed">backed by 2 Accelerators:</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="row logos">
+                <ul>
+                  <li>
+                    <a href="https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/centers/berkley-center-for-entrepreneurship" target="_blank">
+                      <img src="./assets/img/NYU1.png" alt="NYU Logo" class="nyu"/>
+                    </a>
+                  </li>
+									<li>
+                    <a href="https://newchip.com/" target="_blank">
+                      <img src="./assets/img/NEWCHIP_LOGO_COLOR.png" alt="Newchip Logo" class="nyu newchip"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+			<div class="row">
+				<ul>
+					<li><a href="about.html">About</a>
+					</li>
+					<li><a
+						href="https://www.notion.so/getsuperstars/Terms-of-Service-Get-Superstars-Inc-62b47ad775b946adb291aabfc7a944a5">Terms</a>
+					</li>
+					<li><a
+						href="https://getsuperstars.notion.site/getsuperstars/Privacy-Policy-Get-Superstars-Inc-0080336704b74777b8180b0531c10cf3">Privacy</a>
+					</li>
+					<li><a href="mailto:support@superstars.co">Contact</a></li>
+					<li><a href="media.html">Media</a></li>
+				</ul>
+				<span class="copyright">Superstars&#8482; 2022 | All Rights Reserved</span>
+			</div>
+		</div>
+	</footer>
+	<!-- E:FOOTER -->
+
+</div>
 
 
-	<script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
-	<script src="main.js"></script>
+<script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
 
 
-	<!-- Initialize Swiper -->
-	<script>
-		const swiper = new Swiper(".swiper", {
-			loop: true,
-			centeredSlides: true,
-			/*autoplay: {
-				delay: 60000,
-				disableOnInteraction: false,
-			},*/
-			//lazy:true,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
+<!-- Initialize Swiper -->
+<script>
+	const swiper = new Swiper(".swiper", {
+		loop: true,
+		centeredSlides: true,
+		/*autoplay: {
+			delay: 60000,
+			disableOnInteraction: false,
+		},*/
+		//lazy:true,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		on: {
+			init: function () {
+				setTimeout(function() {
+					startCurrentVideo();
+				}, 1500);
+
+				$('video').on('ended', function () {
+					swiper.slideNext('play');
+				});
 			},
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-			on: {
-				init: function () {
-					setTimeout(function () {
-						startCurrentVideo();
-					}, 1500);
+		},
+	});
 
-					$('video').on('ended', function () {
-						swiper.slideNext('play');
-					});
-				},
-			},
+	swiper.on('slideChange', function () {
+		const sliderVideos = $(".swiper-slide video");
+		sliderVideos.each(function (index, elem) {
+			$(elem).trigger('pause');
+			$(elem).currentTime = 0;
 		});
+		startCurrentVideo();
+	});
 
-		swiper.on('slideChange', function () {
-			const sliderVideos = $(".swiper-slide video");
-			sliderVideos.each(function (index, elem) {
-				$(elem).trigger('pause');
-				$(elem).currentTime = 0;
-			});
-			startCurrentVideo();
-		});
+	function startCurrentVideo() {
+		setTimeout(function () {
+			const currentVideo = $(".swiper-slide-active").find("video");
+			currentVideo.trigger('play');
+			currentVideo.muted = false;
+		}, 300);
+	};
 
-		function startCurrentVideo() {
-			setTimeout(function () {
-				const currentVideo = $(".swiper-slide-active").find("video");
-				currentVideo.trigger('play');
-				currentVideo.muted = false;
-			}, 300);
-		};
 
-		// find load time 
-		window.onload = function () {
-			var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart;
-			console.log('Page load time is ' + loadTime);
-		}
-
-	</script>
+</script>
 
 </body>
 

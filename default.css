@@ -232,6 +232,15 @@ header .banner p {
     /* width: 300px; */
     /* height: 617px; */
     pointer-events: none;
+
+    /* z-index: 99; */
+}
+
+.img-content .phone-frame-img-tilt {
+    /* width: 300px; */
+    /* height: 617px; */
+    pointer-events: none;
+    transform: rotate(10deg);
     /* z-index: 99; */
 }
 
