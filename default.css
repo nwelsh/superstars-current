@@ -675,11 +675,12 @@ video::-webkit-media-controls-fullscreen-button {
 @media screen and (max-width: 821px) {
     .accelerator {
         width: 80%;
-        margin-top: 70px;
+        /* changed this so less padding on top, did not change anything */
+        margin-top: 10%;
     }
 
     .accelerator-wrap {
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
 }
