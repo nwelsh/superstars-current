@@ -604,8 +604,8 @@ hr {
 }
 
 .card-img {
-    width: 28%;
-    height: 28%;
+    width: 25%;
+    height: 25%;
     border-radius: 25px;
 }
 
@@ -679,7 +679,7 @@ video::-webkit-media-controls-fullscreen-button {
         /* margin-top: 10%; */
     }
 
-    .accelerator-wrap {
+    .accelerator-wrap { 
         margin-top: 5%;
     }
 
